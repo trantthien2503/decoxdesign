@@ -1,0 +1,767 @@
+        li,
+        ul,
+        nav {
+            list-style: none;
+        }
+        
+        .container:before,
+        .container:after {
+            display: table;
+            content: " ";
+        }
+        
+        body {
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            background: #fff;
+            font-size: 14px;
+            color: #484338;
+            min-height: 700px;
+        }
+        
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        font,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        sup,
+        sub,
+        tt,
+        var,
+        u,
+        i,
+        center,
+        ul,
+        ol,
+        li,
+        dl,
+        dt,
+        dd,
+        tfoot,
+        caption,
+        form,
+        fieldset,
+        legend,
+        input,
+        button,
+        textarea,
+        select,
+        label,
+        applet,
+        object,
+        audio,
+        video,
+        canvas,
+        article,
+        aside,
+        canvas,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section,
+        summary {
+            font-family: inherit;
+            font-size: 100%;
+            font-weight: inherit;
+            font-style: inherit;
+            line-height: inherit;
+            vertical-align: baseline;
+            border: 0;
+            outline: 0;
+            padding: 0;
+            margin: 0;
+        }
+        /* Header */
+        
+        .container {
+            width: 99%;
+            max-width: 1366px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .header {
+            position: relative;
+            padding: 0px 0;
+            z-index: 999;
+        }
+        
+        .header .logo {
+            float: left;
+            width: 15%;
+            margin-top: 25px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .header .brandbut {
+            float: left;
+            width: 7%;
+            margin: 25px 0 0 1%;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header .brandbut a#brandtop {
+            padding: 10px 0;
+            color: #264c5d;
+            display: block;
+            font-size: 15px;
+            position: relative;
+            font-weight: bold;
+        }
+        
+        .header .brandbut a#brandtop:after {
+            content: '';
+            background: url(https://decoxdesign.com/images/down-black.svg) no-repeat;
+            background-size: 10px;
+            position: absolute;
+            right: -2px;
+            bottom: 13px;
+            width: 10px;
+            height: 9px;
+        }
+        
+        .ulbrand {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px -2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            padding: 10px;
+            background: #fff;
+            width: 250px;
+        }
+        
+        .brandbut:hover .ulbrand {
+            display: block;
+        }
+        
+        .ulbrand li {
+            width: 50%;
+            float: left;
+            text-align: left;
+        }
+        
+        li,
+        ul,
+        nav {
+            list-style: none;
+        }
+        
+        .ulbrand li a {
+            display: block;
+            padding: 6px;
+            color: #264c5d;
+        }
+        
+        .header .search {
+            float: left;
+            width: 20%;
+            position: relative;
+            margin: 22px 0 0 1%;
+        }
+        
+        .header .search input {
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: .5px solid #a8a8a8;
+            line-height: 30px;
+            width: 100%;
+            position: relative;
+        }
+        
+        .header .search button {
+            background: #264c5d url(https://decoxdesign.com/images/search-white.svg) no-repeat center;
+            background-size: 20px;
+            position: absolute;
+            width: 38px;
+            height: 37px;
+            right: 2px;
+            top: 2px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .header .category {
+            float: right;
+            width: 55%;
+            background: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .header .category .infomation {
+            float: right;
+            width: 21%;
+        }
+        
+        .header .category .infomation a {
+            display: inline-block;
+            padding: 0 10px;
+            border-left: 1px solid #333;
+            color: #333;
+            text-align: center;
+            font-weight: bold;
+            width: 50%;
+            max-width: 80px;
+            line-height: 22px;
+            height: 65px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            font-size: 12px;
+            float: left !important;
+        }
+        
+        .header .category ul {
+            float: right;
+            width: 79%;
+        }
+        
+        .header .category ul li {
+            display: inline-block;
+            text-align: center;
+            padding: 2px 2px;
+            line-height: 18px;
+            width: 15.28%;
+            vertical-align: top;
+        }
+        
+        .header .category ul li a {
+            display: block;
+        }
+        
+        .header .category ul li img {
+            height: 34px;
+            margin: 5px 0 0;
+        }
+        
+        .header .category ul li p {
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: bold;
+            color: #264c5d;
+        }
+        
+        #menumb_div {
+            padding-left: 4px;
+        }
+        
+        .owl-carousel {
+            display: none;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .owl-carousel,
+        .owl-carousel .owl-item {
+            position: relative;
+        }
+        
+        .owl-carousel {
+            display: none;
+        }
+        
+        #menumb_div a {
+            color: #333;
+            text-align: center;
+            font-size: 11px;
+            padding: 2px 0px;
+            line-height: 18px;
+            display: block;
+        }
+        
+        #menumb_div a img {
+            height: 34px;
+            margin: 5px 0 5px;
+        }
+        
+        #menumb_div a p {
+            text-transform: uppercase;
+            font-size: 8px;
+            font-weight: bold;
+            color: #264c5d;
+        }
+        
+        .header .category::after {
+            content: ' ';
+            display: block;
+            clear: both;
+        }
+        
+        .header .category ul li:nth-child(5),
+        .header .category ul li:nth-child(6),
+        .header .category ul li:nth-child(7) {
+            width: 10%;
+        }
+        
+        .header .category ul li:nth-child(7) {
+            float: right;
+            width: 80px;
+        }
+        
+        div,
+        form,
+        fieldset,
+        legend,
+        label {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a.togglemenu {
+            display: none;
+        }
+        /* subnav */
+        
+        nav.subnav {
+            overflow: hidden;
+            background: #fff;
+            position: absolute;
+            top: 122px;
+            left: 0;
+            right: 0;
+            padding-right: 5px;
+            z-index: 9999999;
+            height: calc(100vh - 45px);
+            display: none;
+        }
+        
+        nav.subnav ul.listmenu {
+            height: 612px;
+            max-height: calc(100% - 45px);
+            width: 110px;
+            overflow: hidden;
+            z-index: 30;
+            float: left;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+            background: #f1f1f1;
+            padding-bottom: 40px;
+        }
+        
+        nav.subnav ul.listmenu li {
+            display: table;
+            overflow: hidden;
+            padding: 0 5px;
+            border-bottom: 1px solid #ddd;
+            height: calc(600px/12);
+            width: 100%;
+            cursor: pointer;
+        }
+        
+        nav.subnav ul.listmenu li.active {
+            background: #fff;
+        }
+        
+        nav.subnav ul.listmenu li.active a {
+            color: #f8931e;
+            font-weight: bold;
+        }
+        
+        nav .nav-r.active {
+            display: block;
+            padding-bottom: 100px;
+        }
+        
+        nav .nav-r {
+            width: calc(100% - 110px);
+            height: auto;
+            max-height: calc(100% - 45px);
+            float: right;
+            display: none;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        nav .nav-r ul.category-mb {
+            overflow: hidden;
+            margin: 10px 5px;
+        }
+        
+        nav .nav-r ul.category-mb li {
+            float: left;
+            width: calc(100%/3);
+            text-align: center;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        
+        nav .nav-r ul.category-mb li span.new {
+            height: auto;
+            color: #11374c;
+            background: #f4af3e;
+            padding: 3px 3px 4px;
+            border-radius: 3px;
+            font-size: 8px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        nav .nav-r ul.category-mb li span {
+            line-height: 1;
+            height: 30px;
+            display: block;
+            font-size: 11px;
+            color: #264c5d;
+            font-weight: bold;
+        }
+        
+        nav .nav-r ul.category-mb li i {
+            display: block;
+            text-align: center;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        nav .nav-r ul.category-mb li img {
+            display: block;
+            margin: 0 auto 8px;
+            height: 50px;
+            border-radius: 4px;
+        }
+        /* menuhot */
+        
+        .menuhot {
+            overflow: hidden;
+            margin: 0px 0 0px;
+            display: none;
+            background: #fff;
+        }
+        
+        .menuhot a {
+            width: 32%;
+            float: left;
+            height: 40px;
+            margin: 0 0 5px 1%;
+            border: 1px solid #264c5d;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            background: #fff;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .menuhot a span.dm-top {
+            width: 60px;
+        }
+        
+        .menuhot a span {
+            display: block;
+            font-size: 11px;
+            padding: 9px 2px;
+            color: #264c5d;
+            text-align: center;
+            font-weight: 400;
+            text-transform: none;
+            width: 88px;
+            line-height: 15px;
+        }
+        /* brand-mobi */
+        
+        .brand-mobi {
+            display: none;
+            padding: 0 5px;
+            position: relative;
+            margin-bottom: 5px;
+            z-index: 9999;
+        }
+        
+        .brand-mobi a.left {
+            float: left;
+        }
+        
+        .brand-mobi a {
+            display: block;
+            padding: 5px 0;
+            color: #264c5d;
+            position: relative;
+        }
+        
+        .brand-mobi a.right {
+            float: right;
+        }
+        /* menu top */
+        
+        *,
+         ::after,
+         ::before {
+            box-sizing: border-box;
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            outline: none !important;
+        }
+        
+        li,
+        ul,
+        nav {
+            list-style: none;
+        }
+        
+        .menutop {
+            margin-top: 5px;
+            float: left;
+        }
+        
+        .menutop::after {
+            content: ' ';
+            display: block;
+            clear: both;
+        }
+        
+        .menutop li.icondown,
+        .menutop li.right-white {
+            padding-right: 0px;
+        }
+        
+        .menutop li.active {
+            background: #264c5d;
+            color: #fff;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .menutop li {
+            float: left;
+            position: relative;
+        }
+        
+        .menutop li :hover .menutop ul ul {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border-radius: 0 0 5px 5px;
+            z-index: 9999;
+            padding: 5px 0px 5px;
+            border: 0px solid #0a2b3a;
+        }
+        
+        .menutop li.icondown a,
+        .menutop li.right-white a {
+            padding-right: 25px;
+        }
+        
+        .menutop li.active a {
+            color: #fff;
+            border-right: 0;
+        }
+        
+        .menutop li a {
+            display: block;
+            padding: 10px 10px;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: capitalize;
+            position: relative;
+            color: #264c5d;
+            border-right: 1px solid #264c5d;
+        }
+        
+        .menutop li.icondown:after,
+        .menutop li.right-white:after {
+            content: "";
+            position: absolute;
+            background: url(https://decoxdesign.com/images/down-white.svg) no-repeat right;
+            background-size: 8px;
+            right: 8px;
+            top: 16px;
+            height: 8px;
+            width: 8px;
+        }
+        
+        .menutop ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border-radius: 0 0 5px 5px;
+            z-index: 9999;
+            padding: 5px 0px 5px;
+            border: 0px solid #0a2b3a;
+        }
+        
+        .menutop ul ul,
+        .menutop ul ul>li:hover {
+            background: #264c5d;
+        }
+        
+        .menutop li.icondown,
+        .menutop li.right-white {
+            padding-right: 0px;
+        }
+        
+        .menutop ul ul li {
+            text-align: left;
+            float: none;
+            min-width: 250px;
+            border-bottom: 0px solid #fff;
+            white-space: nowrap;
+        }
+        
+        .menutop li.icondown a,
+        .menutop li.right-white a {
+            padding-right: 25px;
+        }
+        
+        .menutop li.active a {
+            color: #fff;
+            border-right: 0;
+        }
+        
+        .menutop ul ul li a {
+            color: #fff;
+            padding: 8px 12px;
+            font-weight: 400;
+            font-size: 14px;
+            text-transform: none;
+            font-weight: bold;
+        }
+        
+        .menutop ul li.active ul ul {
+            min-width: 1000px;
+            border: 0;
+            padding: 10px;
+            top: -5px;
+            left: 100%;
+        }
+        
+        .menutop ul li.active ul ul li {
+            width: 33.33%;
+            height: auto;
+            float: left;
+            text-align: left;
+            border: 0;
+            height: 38px;
+        }
+        
+        .menutop li.black img {
+            height: 8px;
+            padding-left: 5px;
+        }
+        /* slide */
+        
+        .carousel-item {
+            height: 100vh;
+            min-height: 300px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        .carousel-caption {
+            bottom: 270px;
+        }
+        
+        .carousel-caption h5 {
+            font-size: 45px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 25px;
+        }
+        
+        .carousel-caption p {
+            width: 75%;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.9;
+        }
+        
+        .navbar-light .navbar-brand {
+            color: #fff;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        
+        .navbar-light .navbar-nav .active>.nav-link,
+        .navbar-light .navbar-nav .nav-link.active,
+        .navbar-light .navbar-nav .nav-link.show,
+        .navbar-light .navbar-nav .show>.nav-link {
+            color: #fff;
+        }
+        
+        .navbar-light .navbar-nav .nav-link {
+            color: #fff;
+        }
+        
+        .navbar-toggler {
+            background: #fff;
+        }
+        
+        .navbar-nav {
+            text-align: center;
+        }
+        
+        .nav-link {
+            padding: .2rem 1rem;
+        }
+        
+        .nav-link.active,
+        .nav-link:focus {
+            color: #fff;
+        }
+        
+        .navbar-toggler {
+            padding: 1px 5px;
+            font-size: 18px;
+            line-height: 0.3;
+        }
+        
+        .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #fff;
+        }

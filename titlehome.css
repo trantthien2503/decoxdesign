@@ -1,0 +1,33 @@
+.titlehome {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: none;
+    color: #264c5d;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+}
+
+.titlehome:after {
+    content: '';
+    width: 70%;
+    border: 1px solid #264c5d;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    height: 1px;
+    box-sizing: border-box;
+    right: 0;
+    margin: auto;
+}
+
+.titlehome a {
+    display: inline-block;
+    background: #fff;
+    z-index: 100;
+    color: #264c5d;
+    font-size: 24px;
+    padding: 0px 30px 0;
+}
