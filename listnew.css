@@ -1,0 +1,66 @@
+.listnews {
+    margin: 0 -5px 10px;
+}
+
+.listnews li {
+    width: 25%;
+    float: left;
+    margin: 0px 0 0px;
+}
+
+.listnews li .pad {
+    padding: 10px;
+    margin: 5px 0;
+    background: none;
+}
+
+.listnews li .images {
+    height: 210px;
+    overflow: hidden;
+}
+
+.listnews li h3 {
+    text-transform: none;
+    color: #264c5d;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 0 10px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.listnews li p {
+    line-height: 24px;
+    color: #888;
+    height: 72px;
+    overflow: hidden;
+}
+
+.listnews li h3 a {
+    color: #264c5d;
+}
+
+a.viewmore,
+a.read-more {
+    display: inline-block;
+    min-width: 150px;
+    margin: 10px 0;
+    border: 1px solid #264c5d;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    color: #264c5d !important;
+    cursor: pointer;
+    background: #fff;
+}
+
+hr.bar {
+    width: 100%;
+    display: block;
+    height: 1px;
+    background: #eee;
+    margin: 30px 0;
+    border: 0;
+    border-top: 1px dashed #ccc;
+}

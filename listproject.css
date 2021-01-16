@@ -1,0 +1,19 @@
+.listproject {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.listproject li {
+    float: left;
+    width: 20%;
+}
+
+.listproject li a {
+    color: #264c5d;
+    font-weight: 400;
+    padding: 6px 0;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
